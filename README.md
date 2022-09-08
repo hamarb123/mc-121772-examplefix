@@ -16,7 +16,7 @@ Build with VS For Mac or some Mono compiler.
 
 Running:
 
-The correct way to run it is to right click the output .app package and select view package contents, navigate to `.Contents/MacOS/InputTester` and launch it, then click on the window that appears. You can view scroll and click events in the console output.
+The correct way to run it is to right click the output .app package and select view package contents, navigate to `./Contents/MacOS/InputTester` and launch it, then click on the window that appears. You can view scroll and click events in the console output.
 
 
 What it fixes:
