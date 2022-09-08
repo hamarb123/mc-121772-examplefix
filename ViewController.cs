@@ -184,7 +184,7 @@ namespace InputTester
 			{
 				if (theEvent.MomentumPhase == NSEventPhase.None)
 				{
-					Console.WriteLine($"{x} {y}");
+					Console.WriteLine($"{x + y} ({x} {y})");
 				}
 			}
 
