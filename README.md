@@ -1,6 +1,9 @@
 # An example fix for https://bugs.mojang.com/browse/MC-121772 and https://bugs.mojang.com/browse/MC-255800 written in C# (it shows what input methods to use, and what to do with them)
 
 
+The relevant code is in ViewController.cs.
+
+
 Pre-build binary:
 
 Included on Releases tab.
