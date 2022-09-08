@@ -30,4 +30,4 @@ What it fixes:
 
 License:
 
-See `LICENSE` for the license, if you are Mojang, I'm happy for these changes to be integrated into the Minecraft game itself if I'm added to the credits ;) - name hamarb123.
+See `LICENSE` for the license, if you are Mojang, I'm happy for these changes to be integrated into the Minecraft game itself if I'm added to the credits ;) - name: hamarb123.
