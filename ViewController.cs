@@ -163,11 +163,13 @@ namespace InputTester
 					{
 						x = Math.Sign(scrollX) * (int)(Math.Abs(scrollX) / sensitivity);
 						scrollX = Math.Sign(scrollX) * (Math.Abs(scrollX) % sensitivity);
+						scrollY = 0; //reset y partial scroll since it was probably not intended
 					}
 					if (Math.Abs(scrollY) >= sensitivity)
 					{
 						y = Math.Sign(scrollY) * (int)(Math.Abs(scrollY) / sensitivity);
 						scrollY = Math.Sign(scrollY) * (Math.Abs(scrollY) % sensitivity);
+						scrollX = 0; //reset x partial scroll since it was probably not intended
 					}
 				}
 			}
